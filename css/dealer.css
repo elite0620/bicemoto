@@ -1,0 +1,682 @@
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* pc에서 안보이기 */
+.mobileTel,
+.mobileCustom,
+.fixed,
+.mobileLogin {
+    display: none;
+}
+
+
+/*header*/
+.headTop {
+    width: 100%;
+    height: 60px;
+    background: #d0112b;
+}
+
+.customTel {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 60px;
+    position: absolute;
+    left: 50%;
+    margin-left: -590px;
+}
+
+.gnb {
+    position: absolute;
+    right: 50%;
+    margin-right: -580px;
+}
+
+.gnb > li {
+    float: left;
+    margin-left: 10px;
+    line-height: 60px;
+}
+
+.gnb > li > a {
+    color: white;
+    font-size: 13px;
+}
+
+.headBottom {
+    position: relative;
+}
+
+.logo {
+    width: 236px;
+    margin: 43px 0 47px 23px;
+}
+
+.search {
+    width: 550px;
+    height: 35px;
+    border: 1px solid #999;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    margin-left: -225px;
+}
+
+.search > input {
+    margin: 7px 0 5px 15px;
+    background: none;
+    border: none;
+    width: 400px;
+    height: 20px
+}
+
+.search > a {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 130px;
+    height: 35px;
+    background: #ffd84d;
+    border-radius: 0 20px 20px 0;
+    line-height: 35px;
+}
+
+.search > a img {
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.sub {
+    display: block;
+    position: relative;
+}
+
+#nav .sub a,
+#nav .cateSub a:hover {
+    color: #fff;
+}
+
+#nav .subSub a:hover,
+.brand .sub a:hover {
+    text-decoration: underline;
+}
+
+.sub a {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.sub .brandLogosub a {
+    margin-left: -70px;
+}
+
+.sub > ul {
+    display: none;
+    z-index: 999;
+    position: absolute;
+    top: 1px;
+}
+
+.cateSub {
+    width: 238px;
+    left: -1px;
+    line-height: 42px;
+}
+
+.brandSub,
+.brandCosub {
+    width: 236px;
+    line-height: 34px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-right: 1px solid #c4c4c4;
+    border-left: 1px solid #c4c4c4;
+}
+
+.brandSub {
+    background: #666;
+}
+
+.brandCosub {
+    left: 236px;
+    background: rgba(102, 102, 102, 0.7);
+}
+
+.brandLogosub {
+    width: 238px;
+    display: block;
+    left: -238px;
+    padding-top: 15px;
+    padding-bottom: 68px;
+    background: rgba(102, 102, 102, 0.7);
+
+}
+
+.brandLogosub > li {
+    width: 100px;
+    float: left;
+    margin: 0 0 5px 13px;
+}
+
+.brandLogosub img {
+    width: 100%;
+}
+
+.cateSub > li {
+    position: relative;
+    background: #666;
+    border-right: 1px solid #c4c4c4;
+    border-left: 1px solid #c4c4c4;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.cateSub > li:first-child {
+    height: 20px;
+}
+
+.cateSub > li:last-child {
+    height: 184px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.cateSub > li:hover {
+    background: rgba(102, 102, 102, 0.7);
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    border-right: none;
+}
+
+.cateSub > li:first-child:hover {
+    background: #666;
+    border-bottom: 1px solid #666;
+
+}
+
+.cateSub > li:last-child:hover {
+    background: #666;
+    border-top: 1px solid #666;
+}
+
+.cateSub .subSub {
+    width: 236px;
+    height: 626px;
+    display: none;
+    width: 100%;
+    background: rgba(102, 102, 102, 0.7);
+    position: absolute;
+    left: 237px;
+    top: 0;
+    padding-top: 22px;
+}
+
+.cateSub > li:nth-child(2) .subSub {
+    top: -23px;
+}
+
+.cateSub > li:nth-child(3) .subSub {
+    top: -67px;
+}
+
+.cateSub > li:nth-child(4) .subSub {
+    top: -111px;
+}
+
+.cateSub > li:nth-child(5) .subSub {
+    top: -155px;
+}
+
+.cateSub > li:nth-child(6) .subSub {
+    top: -199px;
+}
+
+.cateSub > li:nth-child(7) .subSub {
+    top: -243px;
+}
+
+.cateSub > li:nth-child(8) .subSub {
+    top: -287px;
+}
+
+.cateSub > li:nth-child(9) .subSub {
+    top: -331px;
+}
+
+.cateSub > li:nth-child(10) .subSub {
+    top: -375px;
+}
+
+.cateSub > li:nth-child(11) .subSub {
+    top: -419px;
+}
+
+.brand:hover .brandSub,
+.brand:hover .brandCosub,
+.brand:hover .brandLogosub,
+.category:hover .cateSub {
+    display: block;
+}
+
+#nav > li:hover a > span {
+    color: #fff;
+}
+
+#nav > li:hover {
+    background: #666;
+}
+
+.cateSub > li:hover > .subSub {
+    display: block;
+}
+
+#nav > .category:hover .sub {
+    display: block;
+}
+
+#nav > li {
+    width: 144px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    background: #ededed;
+    border-top: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.category {
+    border-left: 1px solid #c4c4c4;
+}
+
+#nav > li > a {
+    color: #022a8a;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#nav > .category,
+#nav > .brand {
+    width: 236px;
+    height: 50px;
+}
+
+.category img {
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.brand img {
+    float: left;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.category a {
+    padding-right: 35px;
+}
+
+.brand a {
+    padding-right: 70px;
+}
+
+
+/* footer */
+
+
+footer {
+    height: 150px;
+    position: relative;
+}
+
+footer > .center {
+    border-top: 1px solid #dbdbdb;
+}
+
+address,
+.footRight {
+    float: left;
+    margin-left: 35px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.footLeft {
+    float: left;
+    margin-left: 0;
+    margin-top: 58px;
+}
+
+.footLogo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footLogo img {
+    width: 100%;
+}
+
+.footMenu > li {
+    float: left;
+    margin-right: 7px;
+    margin-top: 0;
+}
+
+.footMenu > li > a {
+    font-size: 15px;
+    color: #5d5d5d;
+}
+
+.footMenu > li > a:after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background: #5d5d5d;
+    margin-left: 10px;
+}
+
+.footMenu > li:last-child > a:after {
+    display: none;
+}
+
+address {
+    line-height: 1.6;
+    position: relative;
+}
+
+address p:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+    width: 110px;
+    border: 1px solid #dbdbdb;
+}
+
+address p:last-child:after {
+    content: "";
+    display: block;
+    border-top: 5px solid transparent;
+    border-left: 10px solid #5d5d5d;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.footRight p:last-child {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    width: 55%;
+    border: 1px solid #c60452;
+}
+
+.footRight p:last-child:after {
+    content: "";
+    display: block;
+    border-top: 5px solid transparent;
+    border-left: 10px solid #c60452;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.top {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+
+/*  대리점 모집  - pc */
+
+.dealer{
+    color:#555;
+	line-height:2.5;
+}
+
+.dealer h3{
+	font-size:16px;
+	margin:60px 0 40px 10px;
+}
+
+.dealerbrLogo>li{
+	float:left;
+	width:178px;
+	height:85px;
+	border:1px solid #dbdbdb;
+	margin:0 0 10px 10px ;	
+}
+
+.dealerbrLogo>li img{
+	width:100%;
+}
+
+.dealerJoin{
+	margin:30px 0 50px 10px;
+}
+
+
+/* mobile 640px */
+@media screen and (max-width:640px) {
+
+    /*	1.제거하기  */
+
+    .footLogo,
+    .customTel,
+    .gnb,
+    .search,
+    #nav > .category,
+    #nav > .brand,
+	.mobileBr
+    {
+        display: none;
+    }
+
+    /*	2.100% 만들기  */
+    .center {
+        width: 100%;
+    }
+	
+	    .headTop {
+        height: 10px;
+    }
+
+    .logo {
+        width: 40%;
+        margin: 40px auto;
+    }
+
+    #nav > li {
+        width: 22%;
+        background: none;
+        border-right: none;
+    }
+
+    #nav > li:last-child {
+        width: 12%
+    }
+
+    #nav > li:last-child > a {
+        display: block;
+        background-image: url(../images/icon_map.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 40%;
+        text-indent: -9999px;
+    }
+	
+	    .dealerbrLogo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .dealerbrLogo > li {
+        float: none;
+        width: 22.5%;
+        height: 11vw;
+        text-align: center;
+        margin: 0 2% 5px 0;
+    }
+	.dealerbrLogo>li:nth-child(6n){
+		margin-right:2%;
+	}
+	.dealerbrLogo>li:nth-child(4n){
+		margin-right:0;
+	}
+	
+	.dealer h3{
+		font-size:14px;
+		margin:25px 0 15px 0;
+	}
+	
+	.dealerJoin span{
+		display:block;
+		text-indent:15px;
+	}
+	
+	
+	
+	
+
+    /* footer */
+
+    footer {
+        padding-bottom: 70px;
+        border-top: 1px solid #dbdbdb;
+        margin-top: 20px;
+    }
+
+    footer > .center {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footLeft,
+    address {
+        float: none;
+        margin-top: 10px;
+    }
+
+    .footMenu > li > a {
+        font-size: 12px;
+    }
+
+    address {
+        order: 3;
+        font-size: 11px;
+        margin: 20px 0;
+    }
+
+    address > p:last-child {
+        width: 25%;
+        right: 40px;
+    }
+
+    .footRight {
+        display: none;
+    }
+
+    /*     fixed mobileNav  */
+
+    .fixed {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background: #fff;
+        border-top: 1px solid #dbdbdb;
+        padding-top: 10px;
+    }
+
+    .mobileNav {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .mobileNav span {
+        display: block;
+        padding-top: 5px;
+        font-size: 11px;
+    }
+
+    .mobileNav > li img {
+        width: 20px;
+    }
+
+    /*    mobileCategory */
+
+    .mobileCate,
+    .mobileSubsub {
+        display: none;
+    }
+
+    .mobileCate {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 71px;
+    }
+
+    .mobileCatesub li {
+        background: rgb(219, 219, 219);
+        padding: 5px 0 5px 30px;
+        text-align: left;
+        position: relative;
+    }
+
+    .mobileCategory {
+        text-align: left;
+    }
+
+    .mobileCategory > a {
+        display: block;
+        height: 30px;
+        padding: 5px 30px;
+        background: #205285;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .mobileCategory img {
+        width: 4%;
+        position: absolute;
+        right: 30px;
+        top: 9px;
+    }
+
+    .mobileCatesub img {
+        position: absolute;
+        width: 4%;
+        right: 30px;
+        top: 4px;
+    }
+
+    .icoCate:hover ~ .mobileCate {
+        display: block;
+    }
+
+
+   
+
+
+
+
+}

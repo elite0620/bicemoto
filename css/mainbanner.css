@@ -1,0 +1,54 @@
+/* visual */
+
+
+#visual {
+	width: 1200px;
+	height: 700px;
+	position: relative;
+	overflow: hidden;
+}
+
+.mainBanner {
+	width: 300%;
+/*	transition: 0.3s;*/
+}
+
+.mainBanner > li {
+	display:none;
+	position:absolute;
+	width: 100%;
+}
+.mainBanner>.mainBanner1{
+	display:block;
+}
+
+.mainBanner>li img {
+	width: 100%;
+}
+
+.mainBtn>li>a {
+	display:block;
+	position: absolute;
+	width: 90px;
+	height: 6px;
+	border-radius: 4px;
+	background: #ccc;
+	bottom: 30px;
+	text-indent:-9999px;
+}
+
+.mainBtn>.btn1>a {
+	left: 455px;
+}
+
+.mainBtn>.btn2>a {
+	left: 555px;
+}
+
+.mainBtn>.btn3>a {
+	left: 655px
+}
+.mainBtn>li.active>a{
+	background-color:#000c7a;
+}
+

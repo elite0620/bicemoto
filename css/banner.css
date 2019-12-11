@@ -1,0 +1,78 @@
+*{margin:0;padding:0;}
+li{list-style:none;}
+.center{
+	width:1200px;
+	margin:0 auto;
+}
+#visual{
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+.banner{
+	width:600%;
+}
+.banner>li{
+	float:left;
+	width:16.666%;
+}
+.control{
+	position:absolute;
+	top:30px;
+	right:30px;
+}
+.control>.text,
+.control>.btn{
+	float:left;
+}
+.control>.btn>li{
+	float:left;
+	margin-left:10px;
+}
+.control>.btn>li>a{
+	display:block;
+	width:33px;
+	height:40px;
+	background-image:url(../images/bn_nav.png);
+	text-indent:-9999px;
+}
+
+.control>.btn>.leftBtn>a{
+	background-position:0 -50px;
+}
+.control>.btn>.leftBtn>a:hover{
+	background-position:0 0;
+}
+.control>.btn>.rightBtn>a{
+	background-position:-33px -50px;
+}
+.control>.btn>.rightBtn>a:hover{
+	background-position:-33px 0;
+}
+.control>.btn>.playStop>a{
+	background-position:-66px -50px;
+}
+.control>.btn>.playStop>a:hover{
+	background-position:-66px 0;
+}
+.control>.btn>.playStop.active>a{
+	background-position:-99px -50px;
+}
+.control>.btn>.playStop.active>a:hover{
+	background-position:-99px 0;
+}
+
+.control>.text{
+	font-size:24px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1414 @@
+.center {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* pc에서 안보이기 */
+.mobileTel,
+.mobileCustom,
+.mobileCate,
+.fixed {
+	display: none;
+}
+
+
+/*header*/
+.headTop {
+	width: 100%;
+	height: 60px;
+	background: #d0112b;
+}
+
+.customTel {
+	color: white;
+	font-size: 18px;
+	letter-spacing: 3px;
+	line-height: 60px;
+	position: absolute;
+	left: 50%;
+	margin-left: -590px;
+}
+
+.gnb {
+	position: absolute;
+	right: 50%;
+	margin-right: -580px;
+}
+
+.gnb > li {
+	float: left;
+	margin-left: 10px;
+	line-height: 60px;
+}
+
+.gnb > li > a {
+	color: white;
+	font-size: 13px;
+}
+
+.headBottom {
+	position: relative;
+}
+
+.logo {
+	width: 236px;
+	margin: 43px 0 47px 23px;
+}
+
+.search {
+	width: 550px;
+	height: 35px;
+	border: 1px solid #999;
+	border-radius: 20px;
+	position: absolute;
+	left: 50%;
+	top: 10px;
+	margin-left: -225px;
+}
+
+.search > input {
+	margin: 7px 0 5px 15px;
+	background: none;
+	border: none;
+	width: 400px;
+	height: 20px
+}
+
+.search > a {
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	font-size: 18px;
+	font-weight: bolder;
+	width: 130px;
+	height: 35px;
+	background: #ffd84d;
+	border-radius: 0 20px 20px 0;
+	line-height: 35px;
+}
+
+.search > a img {
+	margin-top: 3px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.sub {
+	display: block;
+	position: relative;
+}
+
+#nav .sub a,
+#nav .cateSub a:hover {
+	color: #fff;
+}
+
+#nav .subSub a:hover,
+.brand .sub a:hover {
+	text-decoration: underline;
+}
+
+.sub a {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.sub .brandLogosub a {
+	margin-left: -70px;
+}
+
+.sub > ul {
+	display: none;
+	z-index: 999;
+	position: absolute;
+	top: 1px;
+}
+
+.cateSub {
+	width: 238px;
+	left: -1px;
+	line-height: 42px;
+}
+
+.brandSub,
+.brandCosub {
+	width: 236px;
+	line-height: 34px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	border-right: 1px solid #c4c4c4;
+	border-left: 1px solid #c4c4c4;
+}
+
+.brandSub {
+	background: #666;
+}
+
+.brandCosub {
+	left: 236px;
+	background: rgba(102, 102, 102, 0.7);
+}
+
+.brandLogosub {
+	width: 238px;
+	display: block;
+	left: -238px;
+	padding-top: 15px;
+	padding-bottom: 68px;
+	background: rgba(102, 102, 102, 0.7);
+
+}
+
+.brandLogosub > li {
+	width: 100px;
+	float: left;
+	margin: 0 0 5px 13px;
+}
+
+.brandLogosub img {
+	width: 100%;
+}
+
+.cateSub > li {
+	position: relative;
+	background: #666;
+	border-right: 1px solid #c4c4c4;
+	border-left: 1px solid #c4c4c4;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+
+.cateSub > li:first-child {
+	height: 20px;
+}
+
+.cateSub > li:last-child {
+	height: 184px;
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.cateSub > li:hover {
+	background: rgba(102, 102, 102, 0.7);
+	border-top: 1px solid #c4c4c4;
+	border-bottom: 1px solid #c4c4c4;
+	border-right: none;
+}
+
+.cateSub > li:first-child:hover {
+	background: #666;
+	border-bottom: 1px solid #666;
+
+}
+
+.cateSub > li:last-child:hover {
+	background: #666;
+	border-top: 1px solid #666;
+}
+
+.cateSub .subSub {
+	width: 236px;
+	height: 626px;
+	display: none;
+	width: 100%;
+	background: rgba(102, 102, 102, 0.7);
+	position: absolute;
+	left: 237px;
+	top: 0;
+	padding-top: 22px;
+}
+
+.cateSub > li:nth-child(2) .subSub {
+	top: -23px;
+}
+
+.cateSub > li:nth-child(3) .subSub {
+	top: -67px;
+}
+
+.cateSub > li:nth-child(4) .subSub {
+	top: -111px;
+}
+
+.cateSub > li:nth-child(5) .subSub {
+	top: -155px;
+}
+
+.cateSub > li:nth-child(6) .subSub {
+	top: -199px;
+}
+
+.cateSub > li:nth-child(7) .subSub {
+	top: -243px;
+}
+
+.cateSub > li:nth-child(8) .subSub {
+	top: -287px;
+}
+
+.cateSub > li:nth-child(9) .subSub {
+	top: -331px;
+}
+
+.cateSub > li:nth-child(10) .subSub {
+	top: -375px;
+}
+
+.cateSub > li:nth-child(11) .subSub {
+	top: -419px;
+}
+
+.brand:hover .brandSub,
+.brand:hover .brandCosub,
+.brand:hover .brandLogosub,
+.category:hover .cateSub {
+	display: block;
+}
+
+#nav > li:hover a > span {
+	color: #fff;
+}
+
+#nav > li:hover {
+	background: #666;
+}
+
+.cateSub > li:hover > .subSub {
+	display: block;
+}
+
+#nav > .category:hover .sub {
+	display: block;
+}
+
+#nav > li {
+	width: 144px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	background: #ededed;
+	border-top: 1px solid #c4c4c4;
+	border-right: 1px solid #c4c4c4;
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.category {
+	border-left: 1px solid #c4c4c4;
+}
+
+#nav > li > a {
+	color: #022a8a;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+#nav > .category,
+#nav > .brand {
+	width: 236px;
+	height: 50px;
+}
+
+.category img {
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.brand img {
+	float: left;
+	margin-left: 70px;
+	margin-top: 10px;
+}
+
+.category a {
+	padding-right: 35px;
+}
+
+.brand a {
+	padding-right: 70px;
+}
+
+/* mainBanner - visual*/
+
+#visual {
+	width: 100%;
+	height: 700px;
+	position: relative;
+	overflow: hidden;
+}
+
+.mainBanner {
+	width: 300%;
+}
+
+.mainBanner > li {
+	display: none;
+	position: absolute;
+	width: 100%;
+}
+
+.mainBanner > .mainBanner1 {
+	display: block;
+}
+
+.mainBanner > li img {
+	width: 100%;
+}
+
+.mainBtn > li > a {
+	display: block;
+	position: absolute;
+	width: 90px;
+	height: 6px;
+	border-radius: 4px;
+	background: #ccc;
+	bottom: 30px;
+	text-indent: -9999px;
+}
+
+.mainBtn > .btn1 > a {
+	left: 455px;
+}
+
+.mainBtn > .btn2 > a {
+	left: 555px;
+}
+
+.mainBtn > .btn3 > a {
+	left: 655px
+}
+
+.mainBtn > li.active > a {
+	background-color: #000c7a;
+}
+
+
+
+/*#container*/
+
+.alpine > li {
+	float: left;
+	width: 387px;
+	height: 460px;
+	border: 1px solid #dbdbdb;
+}
+
+.alpine > li img {
+	width: 100%
+}
+
+.alpine > li:nth-child(2) {
+	margin: 0 14px;
+}
+
+.alpine .brLogo {
+	display: block;
+	font-size: 22px;
+	font-weight: 800;
+	color: #2c2c2c;
+	margin: 20px 0 3px 20px;
+}
+
+.alpine .itemName {
+	font-size: 16px;
+	color: #5c5c5c;
+	margin: 0 20px;
+}
+
+.ad {
+	width: 100%;
+	margin-top: 47px;
+	background: #f8f4ef;
+	text-align: center;
+}
+
+.ad img {
+	width: 100%;
+}
+
+/* 신상품 */
+
+
+.new .center {
+
+	position: relative;
+}
+
+h3 {
+	color: #2c2c2c;
+	font-size: 28px;
+	font-weight: 800;
+	padding-top: 68px;
+}
+
+.titleText {
+	top: 75px;
+}
+
+.new .titleText {
+	position: absolute;
+	left: 100px;
+
+}
+
+.more {
+	width: 110px;
+	height: 30px;
+	background: #fff;
+	border: 1px solid #dbdbdb;
+	position: absolute;
+	right: 0;
+	top: 68px;
+	color: #2c2c2c;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.product > li {
+
+	width: 270px;
+	height: 450px;
+	float: left;
+	padding-top: 80px;
+	margin-right: 35px;
+	position: relative;
+}
+
+.product > li img {
+	width: 100%;
+}
+
+.product > li:nth-child(4),
+.product > li:nth-child(8) {
+	margin-right: 0;
+}
+
+.product > li .text {
+	background: #fff;
+	border-top: 1px solid #d5d4d4;
+	box-sizing: border-box;
+}
+
+.product .en {
+	display: block;
+	margin-top: 10px;
+}
+
+.ko {
+	font-size: 17px;
+	color: #2c2c2c;
+	font-weight: 400;
+}
+
+.product .ko {
+	display: block;
+	margin-top: 5px;
+}
+
+.price {
+	font-size: 16px;
+	color: #2c2c2c;
+	font-weight: 800;
+}
+
+.product .price {
+	display: block;
+	margin-top: 20px;
+}
+
+/* bike banner */
+.wrap {
+	background: #f5f5f5;
+	position: relative;
+	height: 600px;
+}
+
+.bike {
+	width: 100%;
+	overflow: hidden;
+	padding-top: 50px;
+}
+
+.nukeBike {
+	width: 400%;
+	height: 550px;
+	position: relative;
+}
+
+.nukeBike > li {
+	width: 6%;
+	height: 500px;
+	border: 1px solid #d5d4d4;
+	float: left;
+	margin: 0 0.125%;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.nukeBike > li img {
+	width: 100%;
+}
+
+.nukeBike > li .textBike {
+	width: 100%;
+	height: 150px;
+	border-top: 1px solid #d5d4d4;
+	box-sizing: border-box;
+}
+
+.nukeBike .en {
+	display: block;
+	margin-top: 10px;
+}
+
+.nukeBike .ko {
+	display: block;
+	margin: 5px 0 10px 0;
+}
+
+.regular {
+	font-size: 16px;
+	color: #999;
+	text-decoration: line-through;
+}
+
+.discounted {
+	font-size: 18px;
+	color: #1c3e93;
+	font-weight: 900;
+}
+
+.aBtn > li {
+	position: absolute;
+	top: 40%;
+}
+
+.aBtn > .leftArrow {
+	left: 0;
+}
+
+.aBtn > .rightArrow {
+	right: 0;
+}
+
+.nukeBike .en,
+.nukeBike .ko,
+.regular,
+.discounted {
+	padding: 0 10px;
+}
+
+
+/* 베스트 */
+
+.best .center {
+	position: relative;
+}
+
+h3 {
+	color: #2c2c2c;
+	font-size: 28px;
+	font-weight: 800;
+	padding-top: 68px;
+}
+
+.best .titleText {
+	position: absolute;
+	left: 150px;
+	top: 75px;
+}
+
+/* 브랜드샵 */
+
+.enTitle {
+	font-size: 36px;
+	text-align: center;
+	margin: 80px 0 60px 0;
+}
+
+.brandLogo > li {
+	float: left;
+	width: 180px;
+	height: 85px;
+	text-align: center;
+	line-height: 85px;
+	border: 1px solid #c4c4c4;
+	/*    margin: 0 0 20px 20px;*/
+	margin: 0 20px 20px 0;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.brandLogo > li img {
+	width: 100%;
+}
+
+.brandLogo > li:nth-child(6n) {
+	margin-right: 0;
+}
+
+/* 커뮤니티 보드 */
+
+.notice,
+.qna,
+.review,
+.smartCustom {
+	float: left;
+	margin-left: 35px;
+	width: 270px;
+	height: 270px;
+	border: 1px solid #dbdbdb;
+	color: #5d5d5d;
+	position: relative;
+	margin-bottom: 120px;
+}
+
+.title {
+	font-size: 20px;
+	font-weight: bolder;
+	padding: 20px 0 20px 15px;
+	color: #1d1d1d;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.notice {
+	margin-left: 0;
+}
+
+
+.community p {
+	position: absolute;
+	top: 22px;
+	right: 15px;
+}
+
+.notice li,
+.qna li,
+.review li {
+	margin: 0 15px 0 15px;
+	border-bottom: 1px dashed #dbdbdb;
+}
+
+.community ul > li > a {
+	line-height: 2;
+}
+
+.qna li img {
+	position: relative;
+	top: 5px;
+	margin-left: 5px;
+}
+
+.community ul > li:last-child,
+.smartCustom li {
+	border-bottom: none;
+}
+
+.smartCustom h4 {
+	background-image: url(../images/smartCustom_BG.jpg);
+	color: #fff;
+	text-align: center;
+}
+
+.smartCustom li {
+	float: left;
+	width: 134px;
+	height: 100px;
+	position: relative;
+}
+
+.smartCustom li:first-child {
+	border-right: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.smartCustom li:nth-child(2) {
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.smartCustom li:nth-child(3) {
+	border-right: 1px solid #dbdbdb;
+}
+
+.smartCustom li img,
+.smartCustom li span {
+	display: block;
+	position: absolute;
+}
+
+.smartCustom li img {
+	top: 20px;
+	left: 45px;
+}
+
+.smartCustom li:nth-child(3) img,
+.smartCustom li:last-child img {
+	top: 20px;
+	left: 50px;
+}
+
+.smartCustom li span {
+	top: 60px;
+	left: 25px;
+}
+
+.smartCustom li:last-child span {
+	top: 60px;
+	left: 35px;
+}
+
+/* 매장 영업 시간 안내 및 고객센터 입금계좌, 매장 오시는 길*/
+
+.shopInfo .center > div {
+	float: left;
+	width: 400px;
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	height: 280px;
+	text-align: center;
+	position: relative;
+}
+
+.shopInfo .title {
+	border-bottom: none;
+	padding-top: 60px;
+	letter-spacing: -1px;
+}
+
+.shopInfo span {
+	display: block;
+	font-size: 16px;
+	color: #1d1d1d;
+	line-height: 2;
+	text-align: left;
+	margin-left: 70px;
+}
+
+.shopInfo .open strong {
+	display: block;
+	font-size: 52px;
+	color: #1d1d1d;
+	padding-bottom: 10px
+}
+
+.shopInfo .bank .account {
+	display: inline;
+	margin-left: 20px;
+	font-weight: bolder;
+	margin-bottom: 10px;
+}
+
+.shopInfo .bank .depositor {
+	margin-top: 35px;
+	margin-left: 150px;
+}
+
+.bank p,
+.map p {
+	position: absolute;
+	left: 70px;
+}
+
+.map span {
+	margin-left: 130px;
+}
+
+/* footer */
+
+
+footer {
+	height: 150px;
+	position: relative;
+}
+
+address,
+.footRight {
+	float: left;
+	margin-left: 35px;
+	margin-top: 50px;
+	position: relative;
+}
+
+.footLeft {
+	float: left;
+	margin-left: 0;
+	margin-top: 58px;
+}
+
+.footLogo {
+	width: 180px;
+	margin-bottom: 20px;
+}
+
+.footLogo img {
+	width: 100%;
+}
+
+.footMenu > li {
+	float: left;
+	margin-right: 7px;
+	margin-top: 0;
+}
+
+.footMenu > li > a {
+	font-size: 15px;
+	color: #5d5d5d;
+}
+
+.footMenu > li > a:after {
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 10px;
+	background: #5d5d5d;
+	margin-left: 10px;
+}
+
+.footMenu > li:last-child > a:after {
+	display: none;
+}
+
+address {
+	line-height: 1.6;
+	position: relative;
+}
+
+address p:last-child {
+	position: absolute;
+	bottom: 0;
+	right: 80px;
+	width: 110px;
+	border: 1px solid #dbdbdb;
+}
+
+address p:last-child:after {
+	content: "";
+	display: block;
+	border-top: 5px solid transparent;
+	border-left: 10px solid #5d5d5d;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+
+.footRight p:last-child {
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	width: 55%;
+	border: 1px solid #c60452;
+}
+
+.footRight p:last-child:after {
+	content: "";
+	display: block;
+	border-top: 5px solid transparent;
+	border-left: 10px solid #c60452;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+
+.top {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+
+/* mobile 640px */
+@media screen and (max-width:640px) {
+
+	/*	1.제거하기  */
+	.customTel,
+	.gnb,
+	.search,
+	#nav > .category,
+	#nav > .brand,
+	.community,
+	.map,
+	.footLogo,
+	.mo1,
+	.mo2,
+	.mo3,
+	.mo4 {
+		display: none;
+	}
+
+	/*	2.100% 만들기  */
+	.center {
+		width: 100%;
+	}
+
+	.headTop {
+		height: 10px;
+	}
+
+	.logo {
+		width: 40%;
+		margin: 40px auto;
+	}
+
+	#nav > li {
+		width: 22%;
+		background: none;
+		border-right: none;
+	}
+
+	#nav > li:last-child {
+		width: 12%
+	}
+
+	#nav > li:last-child > a {
+		display: block;
+		background-image: url(../images/icon_map.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 40%;
+		text-indent: -9999px;
+	}
+
+	#visual {
+
+		height: 58vw;
+	}
+
+	.mainBtn > li > a {
+
+		width: 15%;
+		bottom: 20px;
+	}
+
+	.mainBtn > .btn1 > a {
+		left: 28%;
+	}
+
+	.mainBtn > .btn2 > a {
+		left: 45%;
+	}
+
+	.mainBtn > .btn3 > a {
+		left: 62%;
+	}
+
+	.alpine > li {
+		width: 31.5%;
+		height: 52vw;
+	}
+
+	.alpine > li:nth-child(2) {
+		margin: 0 5px;
+	}
+
+	.alpine .brLogo {
+		display: block;
+		font-size: 11px;
+		font-weight: 800;
+		color: #2c2c2c;
+		margin: 5px 0 3px 3px;
+	}
+
+	.alpine .itemName {
+		font-size: 12px;
+		color: #5c5c5c;
+		margin: 0 3px;
+	}
+
+	.ad {
+		margin-top: 15px;
+	}
+
+	h3 {
+		font-size: 18px;
+		padding-top: 30px;
+	}
+
+	.titleText {
+		font-size: 11px;
+		top: 35px;
+	}
+
+	.new .titleText {
+		left: 65px;
+	}
+
+	.more {
+		width: 13%;
+		height: 20px;
+		top: 28px;
+		font-size: 13px;
+		font-weight: 100;
+		line-height: 20px;
+	}
+
+	.product {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.product > li {
+		float: none;
+		width: 45%;
+		height: 65vw;
+		margin-right: 10%;
+		padding-top: 10%;
+	}
+
+	.product > li:nth-child(2n) {
+		margin-right: 0;
+	}
+
+	.product .en {
+		font-size: 11px;
+		margin-top: 3%;
+	}
+
+	.product .ko {
+		font-size: 13px;
+		margin-top: 3%;
+	}
+
+	.product .price {
+		font-size: 13px;
+		margin-top: 6%;
+	}
+
+	/*	nukeBike  */
+
+	.wrap {
+		margin-top: 50px;
+		height: 90vw;
+	}
+
+	.bike {
+		padding-top: 0;
+	}
+
+	.nukeBike {
+		padding-top: 30px;
+		width: 800%;
+	}
+
+	.nukeBike > li {
+		height: auto;
+		bottom: 10px;
+	}
+
+	.nukeBike .en {
+		margin-top: 5px;
+		font-size: 11px;
+	}
+
+	.nukeBike .ko {
+		margin-top: 5px;
+		font-size: 12px;
+	}
+
+	.regular {
+		font-size: 11px;
+		padding: 0 2px;
+	}
+
+	.discounted {
+		font-size: 12px;
+		padding: 0;
+
+	}
+
+	.aBtn > li {
+		width: 3%;
+	}
+
+	.aBtn img {
+		width: 100%;
+	}
+
+	/*	베스트  */
+
+	.best .titleText {
+		left: 95px;
+		top: 33px;
+	}
+
+	.enTitle {
+		font-size: 20px;
+		margin: 20px 0;
+	}
+
+	.brandLogo {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.brandLogo > li {
+		float: none;
+		width: 23%;
+		height: 11vw;
+		text-align: center;
+		margin: 0 2% 5px 0;
+	}
+
+	.brandLogo > li:nth-child(6n) {
+		margin-right: 2%;
+	}
+
+	.brandLogo > li:nth-child(4n) {
+		margin-right: 0;
+	}
+
+	.shopInfo > .center > div {
+		width: 49%;
+		height: 60vw;
+		border-bottom: none;
+		margin-top: 20px;
+		position: relative;
+	}
+
+	.shopInfo .title {
+		font-size: 12px;
+		padding-top: 40px;
+	}
+
+	.shopInfo span {
+		font-size: 10px;
+		margin-left: 10%;
+	}
+
+	.shopInfo .open strong {
+		font-size: 25px;
+	}
+
+	.bank p {
+		width: 90%;
+		left: 20px;
+	}
+
+	.bank p img {
+		width: 40%;
+	}
+
+	.shopInfo .bank .account {
+		margin-left: 5px;
+
+	}
+
+	.shopInfo .bank .depositor {
+		margin-top: 12%;
+		margin-left: 37%;
+	}
+
+	/*	 모바일에서 보여지는 mobileTel, mobileCustom  */
+	.mobileTel,
+	.mobileCustom {
+		display: block;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 20px;
+		border: 1px solid #dbdbdb;
+	}
+
+	.mobileTel,
+	.mobileCustom {
+		width: 150px;
+	}
+
+	.mobileTel img,
+	.mobileCustom img {
+		width: 12%;
+		padding-top: 5px;
+	}
+
+	.mobileTel span,
+	.mobileCustom span {
+		display: inline;
+		font-size: 15px;
+	}
+
+	/* footer */
+
+	footer {
+		padding-bottom: 70px;
+		border-top: 1px solid #dbdbdb;
+		margin-top: 20px;
+	}
+
+	footer > .center {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.footLeft,
+	address {
+		float: none;
+		margin-top: 10px;
+	}
+
+	.footMenu > li > a {
+		font-size: 12px;
+	}
+
+	address {
+		order: 3;
+		font-size: 11px;
+		margin: 20px 0;
+	}
+
+	address > p:last-child {
+		width: 25%;
+		right: 40px;
+	}
+
+	.footRight {
+		display: none;
+	}
+
+	/*     모바일 카테고리  */
+
+	.mobileWrap {
+		position: fixed;
+		width: 100%;
+	}
+
+	.mobileCate {
+		display: block;
+		background: rgb(219, 219, 219);
+		overflow-y: scroll;
+		height: 100%;
+		width: calc(100% + 20px);
+		position: fixed;
+		bottom: -100%;
+	}
+
+	.mobileSubsub {
+		display: none;
+		background: white;
+		line-height: 30px;
+	}
+
+	.mobileCatesub > li {
+		background: rgb(219, 219, 219);
+		text-align: left;
+		position: relative;
+		text-indent: 30px;
+	}
+
+	.mobileCatesub > li > a {
+		line-height: 36px;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.mobileCategory {
+		text-align: left;
+	}
+
+	.mobileCategory > a {
+		display: block;
+		height: 30px;
+		padding: 5px 30px;
+		background: #205285;
+		font-size: 18px;
+		color: #fff;
+	}
+
+	.mobileSubsub > li > a {
+		padding-left: 20px;
+	}
+
+	.mobileSubsub > li:hover > a {
+		text-decoration: underline;
+	}
+
+	/*	 모바일 카테고리 up down 버튼*/
+	.mobileCatesub > li > a {
+		display: block;
+		background-image: url(../images/icon-aDown.png);
+		background-repeat: no-repeat;
+		background-position: 94% 50%;
+		background-size: 20px;
+	}
+
+	.mobileCatesub > li.active > a {
+		background-image: url(../images/icon-aUp.png);
+	}
+
+	.closeBtn {
+		width: 4%;
+		position: absolute;
+		right: 30px;
+		top: 9px;
+		transform: rotate(0);
+		transition: 1s;
+	}
+
+	.closeBtn:hover {
+		transform: rotate(180deg);
+	}
+
+	.fixed {
+		display: block;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 60px;
+		background: #fff;
+		border-top: 1px solid #dbdbdb;
+		padding-top: 10px;
+	}
+
+	.mobileNav {
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+		position: relative;
+
+	}
+
+	.mobileNav span {
+		display: block;
+		padding-top: 5px;
+		font-size: 11px;
+	}
+
+	.mobileNav > li img {
+		width: 20px;
+	}
+
+}
+
+@media screen and (max-width:350px) {
+
+	.alpine .brLogo,
+	.nukeBike .en,
+	.mobileTel,
+	.mobileCustom {
+		display: none;
+	}
+
+	.alpine > li {
+		width: 30.5%;
+		height: 52vw;
+	}
+
+	.regular {
+		padding: 0;
+	}
+
+	.shopInfo .center div {
+		float: none;
+		width: 95%;
+		height: 60vw;
+	}
+
+
+}

@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>bicemoto_index</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/mainbanner.js"></script>
+	<script src="js/bike.js"></script>
+
+
+</head>
+
+<body>
+	<!--   header -->
+	<header>
+		<div class="headTop">
+			<strong class="customTel">고객센터 &middot; 1688-5776</strong>
+			<ul class="gnb">
+				<li><a href="index_login.html">로그인</a></li>
+				<li><a href="#">회원가입</a></li>
+				<li><a href="#">마이페이지</a></li>
+				<li><a href="#">주문조회</a></li>
+				<li><a href="#">장바구니(0)</a></li>
+				<li><a href="#">즐겨찾기</a></li>
+			</ul>
+		</div>
+		<div class="center">
+			<div class="headBottom clearFix">
+				<h1 class="logo"><a href="#"><img src="images/bicemoto_logo.svg" alt="로고"></a></h1>
+				<form class="search">
+					<input type="text" id="search">
+					<label for="search"></label>
+					<a href="#"><img src="images/btn_search.png" alt="돋보기">search</a>
+
+				</form>
+				<ul id="nav">
+					<li class="category">
+						<a href="#">
+							<img src="images/icon_category.png" alt="카테고리아이콘"><span>전체 카테고리</span></a>
+						<div class="sub">
+							<ul class="cateSub">
+								<li></li>
+								<li><a href="#">산악자전거</a>
+									<ul class="subSub">
+										<li><a href="#">산악자전거</a></li>
+										<li><a href="#">프레임</a></li>
+										<li><a href="#">모터키트</a></li>
+									</ul>
+								</li>
+								<li><a href="#">산악자전거(MTB)용품</a>
+									<ul class="subSub">
+										<li><a href="#">자켓</a></li>
+										<li><a href="#">장갑</a></li>
+										<li><a href="#">저지</a></li>
+										<li><a href="#">바지</a></li>
+										<li><a href="#">보호대</a></li>
+										<li><a href="#">신발</a></li>
+										<li><a href="#">고글 및 선글라스</a></li>
+										<li><a href="#">기능성 이너웨어</a></li>
+										<li><a href="#">악세사리</a></li>
+										<li><a href="#">풀페이스 헬멧</a></li>
+										<li><a href="#">어반헬멧</a></li>
+										<li><a href="#">헬멧</a></li>
+										<li><a href="#">파츠</a></li>
+										<li><a href="#">MTB 프레임</a></li>
+									</ul>
+
+
+								</li>
+								<li><a href="#">로드사이클 용품</a>
+									<ul class="subSub">
+										<li><a href="#">자켓</a></li>
+										<li><a href="#">바지</a></li>
+										<li><a href="#">장갑</a></li>
+										<li><a href="#">헬멧</a></li>
+										<li><a href="#">고글 선글라스</a></li>
+										<li><a href="#">기능성 저지</a></li>
+										<li><a href="#">모자</a></li>
+									</ul>
+								</li>
+								<li><a href="#">오프로드 바이크 용품</a>
+									<ul class="subSub">
+										<li><a href="#">자켓</a></li>
+										<li><a href="#">저지</a></li>
+										<li><a href="#">바지</a></li>
+										<li><a href="#">장갑</a></li>
+										<li><a href="#">고글</a></li>
+										<li><a href="#">부츠</a></li>
+										<li><a href="#">기능성 이너웨어</a></li>
+										<li><a href="#">헬멧</a></li>
+										<li><a href="#">악세사리</a></li>
+									</ul>
+								</li>
+								<li><a href="#">모터사이클 용품</a>
+									<ul class="subSub">
+										<li><a href="#">슈트</a></li>
+										<li><a href="#">자켓</a></li>
+										<li><a href="#">장갑</a></li>
+										<li><a href="#">부츠</a></li>
+										<li><a href="#">보호대</a></li>
+										<li><a href="#">고글</a></li>
+										<li><a href="#">방한용 마스크</a></li>
+										<li><a href="#">신발</a></li>
+										<li><a href="#">기능성 이너웨어</a></li>
+									</ul>
+								</li>
+								<li><a href="#">캐주얼 의류</a>
+									<ul class="subSub">
+										<li><a href="#">반팔티셔츠</a></li>
+										<li><a href="#">비니모자</a></li>
+										<li><a href="#">후드 플리스티</a></li>
+										<li><a href="#">긴팔티셔츠</a></li>
+										<li><a href="#">스포츠캡</a></li>
+										<li><a href="#">자켓</a></li>
+									</ul>
+								</li>
+								<li><a href="#">악세사리</a>
+									<ul class="subSub">
+										<li><a href="#">가방</a></li>
+										<li><a href="#">하드웨어</a></li>
+										<li><a href="#">안전조끼</a></li>
+										<li><a href="#">기능성 양말</a></li>
+										<li><a href="#">모자</a></li>
+										<li><a href="#">시계</a></li>
+									</ul>
+								</li>
+								<li><a href="#">여성용 모터사이클 용품</a>
+									<ul class="subSub">
+										<li><a href="#">자켓</a></li>
+										<li><a href="#">장갑</a></li>
+										<li><a href="#">청바지</a></li>
+										<li><a href="#">보호대</a></li>
+									</ul>
+								</li>
+								<li><a href="#">모터사이클용 재고처분의류</a>
+									<ul class="subSub">
+										<li><a href="#">남성용 자켓</a></li>
+										<li><a href="#">남성용 바지</a></li>
+										<li><a href="#">여성용 자켓</a></li>
+										<li><a href="#">여성용 바지</a></li>
+									</ul>
+								</li>
+								<li><a href="#">빅세일 상품</a>
+									<ul class="subSub">
+										<li><a href="#">슈트</a></li>
+										<li><a href="#">자켓</a></li>
+										<li><a href="#">저지</a></li>
+										<li><a href="#">바지</a></li>
+										<li><a href="#">장갑</a></li>
+										<li><a href="#">부츠</a></li>
+										<li><a href="#">선글라스 및 고글</a></li>
+									</ul>
+								</li>
+								<li></li>
+							</ul>
+						</div>
+
+					</li>
+					<li class="brand">
+						<a href="#">
+							<img src="images/icon_brand.png" alt="브랜드아이콘"><span>브랜드</span></a>
+						<div class="sub">
+							<ul class="brandSub">
+								<li><a href="#">Apinestars</a></li>
+								<li><a href="#">Kenny</a></li>
+								<li><a href="#">O'Neal</a></li>
+								<li><a href="#">Nukeproof</a></li>
+								<li><a href="#">EVS</a></li>
+								<li><a href="#">Amplifi</a></li>
+								<li><a href="#">Deity</a></li>
+								<li><a href="#">Lift MTB</a></li>
+								<li><a href="#">Michelin</a></li>
+								<li><a href="#">Clever Standard</a></li>
+								<li><a href="#">North Wave</a></li>
+								<li><a href="#">Bobster</a></li>
+								<li><a href="#">Airflaps</a></li>
+								<li><a href="#">Monkey's Sauce</a></li>
+								<li><a href="#">Industry Nine</a></li>
+								<li><a href="#">Trust Performance</a></li>
+								<li><a href="#">Light Bicycle</a></li>
+								<li><a href="#">Life Line</a></li>
+							</ul>
+
+							<ul class="brandCosub">
+								<li><a href="#">알파인스타스</a></li>
+								<li><a href="#">케니</a></li>
+								<li><a href="#">오닐</a></li>
+								<li><a href="#">누크프루프</a></li>
+								<li><a href="#">이브이에스</a></li>
+								<li><a href="#">앰플리파이</a></li>
+								<li><a href="#">디어티</a></li>
+								<li><a href="#">라이프 엠티비</a></li>
+								<li><a href="#">미쉐린</a></li>
+								<li><a href="#">클레버 스탠다드</a></li>
+								<li><a href="#">노스웨이브</a></li>
+								<li><a href="#">밥스터</a></li>
+								<li><a href="#">에어플랩스</a></li>
+								<li><a href="#">몽키스소스</a></li>
+								<li><a href="#">인더스트리 나인</a></li>
+								<li><a href="#">트러스트 퍼포먼스</a></li>
+								<li><a href="#">라이트 바이시클</a></li>
+								<li><a href="#">라이프 라인</a></li>
+							</ul>
+
+							<ul class="brandLogosub clearFix">
+								<li><a href="#"><img src="images/brand_1.jpg" alt="알파인스타스"></a></li>
+								<li><a href="#"><img src="images/brand_2.jpg" alt="케니"></a></li>
+								<li><a href="#"><img src="images/brand_3.jpg" alt="오닐"></a></li>
+								<li><a href="#"><img src="images/brand_4.jpg" alt="누크프루프"></a></li>
+								<li><a href="#"><img src="images/brand_5.jpg" alt="이브이에스"></a></li>
+								<li><a href="#"><img src="images/brand_6.jpg" alt="엠플리파이"></a></li>
+								<li><a href="#"><img src="images/brand_7.jpg" alt="디어티"></a></li>
+								<li><a href="#"><img src="images/brand_8.jpg" alt="리프트엠티비"></a></li>
+								<li><a href="#"><img src="images/brand_9.jpg" alt="미쉐린"></a></li>
+								<li><a href="#"><img src="images/brand_10.jpg" alt="클레버스탠다드"></a></li>
+								<li><a href="#"><img src="images/brand_11.jpg" alt="노스웨이브"></a></li>
+								<li><a href="#"><img src="images/brand_12.jpg" alt="밥스터"></a></li>
+								<li><a href="#"><img src="images/brand_13.jpg" alt="에어플랩스"></a></li>
+								<li><a href="#"><img src="images/brand_14.jpg" alt="몽키스소스"></a></li>
+								<li><a href="#"><img src="images/brand_15.jpg" alt="인더스트리나인"></a></li>
+								<li><a href="#"><img src="images/brand_16.jpg" alt="트러스트"></a></li>
+								<li><a href="#"><img src="images/brand_17.jpg" alt="라이트바이시클"></a></li>
+								<li><a href="#"><img src="images/brand_18.jpg" alt="라이프라인"></a></li>
+							</ul>
+
+						</div>
+
+					</li>
+					<li><a href="#"><span>베스트셀러</span></a></li>
+					<li><a href="#"><span>신상품</span></a></li>
+					<li><a href="#"><span>특가상품</span></a></li>
+					<li><a href="dealer.html"><span>대리점모집</span></a></li>
+					<li><a href="index_map.html"><span>오시는길</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<!--   container -->
+	<div id="container">
+		<!--        visual -->
+		<div class="center">
+			<div id="visual">
+				<ul class="mainBanner">
+					<li class="mainBanner1"><a href="#"><img src="images/img_mainBanner_01.jpg" alt=""></a></li>
+					<li class="mainBanner2"><a href="#"><img src="images/img_mainBanner_02.jpg" alt=""></a></li>
+					<li class="mainBanner3"><a href="#"><img src="images/img_mainBanner_03.jpg" alt=""></a></li>
+				</ul>
+				<ul class="mainBtn">
+					<li class="btn1 active"><a href="#">1</a></li>
+					<li class="btn2"><a href="#">2</a></li>
+					<li class="btn3"><a href="#">3</a></li>
+				</ul>
+			</div>
+
+		</div>
+		<section id="contents">
+			<h2 class="blind">메인컨텐츠</h2>
+
+			<div class="center clearFix">
+				<ul class="alpine">
+					<li><a href="#">
+							<img src="images/img_banner_01.jpg" alt="">
+							<strong class="brLogo">Alpinestars 알파인스타스</strong>
+							<span class="itemName">바이오닉 플러스 엘보우/니 신 프로텍터</span>
+						</a></li>
+					<li><a href="#">
+							<img src="images/img_banner_02.jpg" alt="">
+							<strong class="brLogo">Alpinestars 알파인스타스</strong>
+							<span class="itemName">벡터 테크 파일럿 헬멧</span>
+						</a></li>
+					<li><a href="#">
+							<img src="images/img_banner_03.jpg" alt="">
+							<strong class="brLogo">Alpinestars 알파인스타스</strong>
+							<span class="itemName">메사 브이2 엘에스 저지</span>
+						</a></li>
+				</ul>
+			</div>
+			<div class="ad"><a href="#"><img src="images/img_ad.jpg" alt="광고이미지"></a></div>
+			<section class="new clearFix">
+				<h2 class="blind">신상품진열</h2>
+				<div class="center">
+					<h3 class="koTitle">신상품</h3>
+					<span class="titleText">따끈따근 핫!! 신상 제품입니다.</span>
+					<p class="more"><a href="#">more</a></p>
+					<ul class="product">
+						<li class="new1"><a href="#"><img src="images/img_new_01.jpg" alt="신상부츠"></a>
+							<div class="text">
+								<span class="en">2019 O’Neal RDX Offroad Boots</span>
+								<strong class="ko">오닐 알디엑스 오프로드 부츠</strong>
+								<strong class="price">585,000원</strong>
+							</div>
+						</li>
+						<li class="new2"><a href="#"><img src="images/img_new_02.jpg" alt="신상페달"></a>
+							<div class="text">
+								<span class="en">2019 Nukeproof Eletro EVO Pedal</span>
+								<strong class="ko">누크프루프 일렉트로 에보 페달</strong>
+								<strong class="price">65,000원</strong>
+							</div>
+						</li>
+						<li class="new3"><a href="#"><img src="images/img_new_03.jpg" alt="신상"></a>
+							<div class="text">
+								<span class="en">2019 Lifeline Stash Saddle Bag</span>
+								<strong class="ko">라이프라인 스태시 새들백 (누크프루프)</strong>
+								<strong class="price">20,000원</strong>
+							</div>
+						</li>
+						<li class="new4"><a href="#"><img src="images/img_new_04.jpg" alt="신상타이어"></a>
+							<div class="text">
+								<span class="en">2019 Michelin Jet XCR Competition Line TLR Tire</span>
+								<strong class="ko">미쉐린 제트 엑스씨알 컴페티션 라인 튜블리스레디 타이어</strong>
+								<strong class="price">95,000원</strong>
+							</div>
+						</li>
+						<li class="new5"><a href="#"><img src="images/img_new_05.jpg" alt="신상헬멧"></a>
+							<div class="text">
+								<span class="en">2019 O’Neal Defender 2 Helmet</span>
+								<strong class="ko">오닐 디펜더 2 헬멧</strong>
+								<strong class="price">148,000원</strong>
+							</div>
+						</li>
+						<li class="new6"><a href="#"><img src="images/img_new_06.jpg" alt="신상프레임"></a>
+							<div class="text">
+								<span class="en">2010 Nukeproof Dissent 290 Frame</span>
+								<strong class="ko">누크프루프 디센트 290 프레임</strong>
+								<strong class="price">2,880,000원</strong>
+							</div>
+						</li>
+						<li class="new7"><a href="#"><img src="images/img_new_07.jpg" alt="신상디어티페달"></a>
+							<div class="text">
+								<span class="en">2019 Diety TMAC Pedal</span>
+								<strong class="ko">디어티 티맥 페달</strong>
+								<strong class="price">238,000원</strong>
+							</div>
+						</li>
+						<li class="new8"><a href="#"><img src="images/img_new_08.jpg" alt=""></a>
+							<div class="text">
+								<span class="en">2019 Linelife Airblast Tubeless Tire Track Pump by Nukeproof</span>
+								<strong class="ko">라이프라인 에어블라스트 튜브리스 타이어 트랙 펌프</strong>
+								<strong class="price">145,000원</strong>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<div class="wrap">
+			<div class="center">
+				<section class="bike">
+					<h2 class="blind">누크프루프 자전거 진열</h2>
+
+					<ul class="nukeBike clearFix">
+						<li class="nukeBanner1"><a href="#">
+								<img src="images/img_bike01.jpg" alt=""></a>
+							<div class="textBike">
+								<span class="en">2019 Nukeproof Mega 275 Carbon Worx Sam Hill Bike</span>
+								<strong class="ko">누크프루프 메가 275 카본 웍스 샘 힐 바이크</strong>
+								<span class="regular">10,190,000원</span>
+								<strong class="discounted">7,850,000원</strong>
+							</div>
+						</li>
+						<li class="nukeBanner2"><a href="#">
+								<img src="images/img_bike02.jpg" alt=""></a>
+							<div class="textBike">
+								<span class="en">2019 Nukeproof Mega 275 Carbon Race Spec Bike Blueberry/Red</span>
+								<strong class="ko">누크프루프 메가 275 카본 레이스 스펙 바이크 블루베리/레드</strong>
+								<span class="regular">9,300,000원</span>
+								<strong class="discounted">7,730,000원</strong>
+							</div>
+						</li>
+						<li class="nukeBanner3"><a href="#">
+								<img src="images/img_bike03.jpg" alt=""></a>
+							<div class="textBike">
+								<span class="en">2019 Nukeproof Mega 290 Pro Bike Midnight/Yellow</span>
+								<strong class="ko">누크프루프 메가 275 카본 프로바이크 미드나잇/옐로우</strong>
+								<span class="regular">7,980,000원</span>
+								<strong class="discounted">6,528,000원</strong>
+							</div>
+						</li>
+						<li class="nukeBanner4"><a href="#">
+								<img src="images/img_bike04.jpg" alt=""></a>
+							<div class="textBike">
+								<span class="en">2019 Nukeproof Mega 290 Pro Bike Petrol Blue/Green</span>
+								<strong class="ko">누크프루프 메가 290 프로바이크 페트롤 블루/그린</strong>
+								<span class="regular">7,160,000원</span>
+								<strong class="discounted">5,780,000원</strong>
+							</div>
+						</li>
+						<li class="nukeBanner5"><a href="#">
+								<img src="images/img_bike05.jpg" alt=""></a>
+							<div class="textBike">
+								<span class="en">2019 Nukeproof Mega 275 Comp Bike Concrete Grey/Black</span>
+								<strong class="ko">누크프루프 메가 275 콤프 바이크 콘크리트 그레이/블랙</strong>
+								<span class="regular">5,200,000원</span>
+								<strong class="discounted">4,170,000원</strong>
+							</div>
+						</li>
+						<li class="nukeBanner6"><a href="#">
+								<img src="images/img_bike06.jpg" alt=""></a>
+							<div class="textBike">
+								<span class="en">2019 Nukeproof Mega 290 Comp Bike Concrete Grey/Black</span>
+								<strong class="ko">누크프루프 메가 290 콤프 바이크 콘크리트 그레이/블랙</strong>
+								<span class="regular">5,200,000원</span>
+								<strong class="discounted">4,170,000원</strong>
+							</div>
+						</li>
+						<li class="nukeBanner7"><a href="#">
+								<img src="images/img_bike07.jpg" alt=""></a>
+							<div class="textBike">
+								<span class="en">2019 Nukeproof Scout 275 Comp Bike Concrete Grey/Black</span>
+								<strong class="ko">누크프루프 스카우트 275 콤프 바이크 콘크리트 그레이/블랙</strong>
+								<span class="regular">3,478,000원</span>
+								<strong class="discounted">2,758,000원</strong>
+							</div>
+						</li>
+						<li class="nukeBanner8"><a href="#">
+								<img src="images/img_bike08.jpg" alt=""></a>
+							<div class="textBike">
+								<span class="en">2019 Nukeproof Scout 290 Comp Bike Concrete Grey/Black</span>
+								<strong class="ko">누크프루프 스카우트 290 콤프 바이크 콘크리트 그레이/블랙</strong>
+								<span class="regular">3,478,000원</span>
+								<strong class="discounted">2,758,000원</strong>
+							</div>
+						</li>
+					</ul>
+
+				</section>
+
+				<ul class="aBtn">
+					<li class="leftArrow"><a href="#"><img src="images/arrow_left.png" alt=""></a></li>
+					<li class="rightArrow"><a href="#"><img src="images/arrow_right.png" alt=""></a></li>
+				</ul>
+			</div>
+			</div>
+
+
+
+			<section class="best clearFix">
+				<h2 class="blind">베스트상품진열</h2>
+				<div class="center">
+					<h3 class="koTitle">베스트상품</h3>
+					<span class="titleText">품질 가격 모두 만족!! 베스트 상품입니다.</span>
+					<p class="more"><a href="#">more</a></p>
+					<ul class="product">
+						<li><a href="#"><img src="images/img_best_01.jpg" alt="고글"></a>
+							<div class="text">
+								<span class="en">2019 O’Neal B-30 Goggle</span>
+								<strong class="ko">오닐 비-써티 고글</strong>
+								<strong class="price">95,000원</strong>
+							</div>
+						</li>
+						<li><a href="#"><img src="images/img_best_02.jpg" alt="스플래터팬더"></a>
+							<div class="text">
+								<span class="en">2019 Azonic Splatter Fender</span>
+								<strong class="ko">아조닉 스플래터 팬더</strong>
+								<strong class="price">25,000원</strong>
+							</div>
+						</li>
+						<li><a href="#"><img src="images/img_best_03.jpg" alt="미러렌즈"></a>
+							<div class="text">
+								<span class="en">2019 Bobster Paragon Sunglass</span>
+								<strong class="ko">밥스터 파라곤 미러렌즈 선글래스</strong>
+								<strong class="price">50,000원</strong>
+							</div>
+						</li>
+						<li><a href="#"><img src="images/img_best_04.jpg" alt="글러브"></a>
+							<div class="text">
+								<span class="en">2019 Kenny Titanium Glove</span>
+								<strong class="ko">케니 티타늄 글러브</strong>
+								<strong class="price">65,000원</strong>
+							</div>
+						</li>
+						<li><a href="#"><img src="images/img_best_05.jpg" alt="오닐헬멧"></a>
+							<div class="text">
+								<span class="en">2019 O’Neal Blade GM Signature Carbon Full Face IPX Helmet</span>
+								<strong class="ko">오닐 블레이드 그렉 미나 시그니쳐 풀페이스 아이피엑스 헬멧</strong>
+								<strong class="price">585,000원</strong>
+							</div>
+						</li>
+						<li><a href="#"><img src="images/img_best_06.jpg" alt="프로숏"></a>
+							<div class="text">
+								<span class="en">2019 Alpinestars Bionic Pro Short</span>
+								<strong class="ko">알파인스타스 바이오닉 프로 숏</strong>
+								<strong class="price">138,000원</strong>
+							</div>
+						</li>
+						<li><a href="#"><img src="images/img_best_07.jpg" alt="니신프로텍터"></a>
+							<div class="text">
+								<span class="en">2019 Alpinestars Bionic Pro Knee-Shin Protector</span>
+								<strong class="ko">알파인스타스 바이오닉 니 신 프로텍터</strong>
+								<strong class="price">168,000원</strong>
+							</div>
+						</li>
+						<li><a href="#"><img src="images/img_best_08.jpg" alt="체스트프로텍터"></a>
+							<div class="text">
+								<span class="en">2019 EVS Revolution 5 Chest Protector</span>
+								<strong class="ko">이브이에스 레볼루션 5 체스트 프로텍터</strong>
+								<strong class="price">135,000원</strong>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="brandShop clearFix">
+				<h2 class="blind">브랜드샵</h2>
+				<div class="center">
+					<h3 class="enTitle">Brand Shop</h3>
+					<ul class="brandLogo">
+						<li class="alLogo"><a href="#"><img src="images/brand_1.jpg" alt="알파인스타스"></a></li>
+						<li><a href="#"><img src="images/brand_2.jpg" alt="케니"></a></li>
+						<li><a href="#"><img src="images/brand_3.jpg" alt="오닐"></a></li>
+						<li class="nukeLogo"><a href="#"><img src="images/brand_4.jpg" alt="누크프루프"></a></li>
+						<li><a href="#"><img src="images/brand_5.jpg" alt="이브이에스"></a></li>
+						<li><a href="#"><img src="images/brand_6.jpg" alt="엠플리파이"></a></li>
+						<li class="dietyLogo"><a href="#"><img src="images/brand_7.jpg" alt="디어티"></a></li>
+						<li class="liftLoto"><a href="#"><img src="images/brand_8.jpg" alt="리프트엠티비"></a></li>
+						<li><a href="#"><img src="images/brand_9.jpg" alt="미쉐린"></a></li>
+						<li><a href="#"><img src="images/brand_10.jpg" alt="클레버스탠다드"></a></li>
+						<li><a href="#"><img src="images/brand_11.jpg" alt="노스웨이브"></a></li>
+						<li class="bobLogo"><a href="#"><img src="images/brand_12.jpg" alt="밥스터"></a></li>
+						<li class="airLogo"><a href="#"><img src="images/brand_13.jpg" alt="에어플랩스"></a></li>
+						<li><a href="#"><img src="images/brand_14.jpg" alt="몽키스소스"></a></li>
+						<li><a href="#"><img src="images/brand_15.jpg" alt="인더스트리나인"></a></li>
+						<li class="turstLogo"><a href="#"><img src="images/brand_16.jpg" alt="트러스트"></a></li>
+						<li><a href="#"><img src="images/brand_17.jpg" alt="라이트바이시클"></a></li>
+						<li><a href="#"><img src="images/brand_18.jpg" alt="라이프라인"></a></li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="community clearFix">
+				<h2 class="blind">커뮤니티보드</h2>
+				<div class="center">
+					<h3 class="enTitle">Community Board</h3>
+					<div class="notice">
+						<h4 class="title">공지사항</h4>
+						<ul>
+							<li><a href="#">영국 누크프루프 브레이크 패드 입고</a></li>
+							<li><a href="#">미쉐린 타이어 및 타이어 인서트 입고</a></li>
+							<li><a href="#">2019년 미국 오닐 TX2000 기어백 입고</a></li>
+							<li><a href="#">2019 미국 오닐 STV상체가드 신규 입고</a></li>
+							<li><a href="#">프랑스 브랜드 몽키스 소스 실란트 입고</a></li>
+							<li><a href="#">19이태리 노스웨이브 XC 클릿 슈즈 입고</a></li>
+							<li><a href="#">프랑스 에어플래스 벤틀레이션 키트 입고</a></li>
+						</ul>
+						<p class="moreBtn"><a href="#"><img src="images/Btn_more.png" alt=""></a></p>
+					</div>
+					<div class=qna>
+						<h4 class="title">질문게시판</h4>
+						<ul>
+							<li><a href="#">제품 문의<img src="images/lock.png" alt=""></a></li>
+							<li><a href="#">재입고 문의<img src="images/lock.png" alt=""></a></li>
+							<li><a href="#">구매 용도</a></li>
+							<li><a href="#">사이즈 정보 알려주세요(2)<img src="images/lock.png" alt=""></a></li>
+							<li><a href="#">재입고</a></li>
+							<li><a href="#">워런티 관련 문의드립니다<img src="images/lock.png" alt=""></a></li>
+							<li><a href="#">재입고</a></li>
+						</ul>
+						<p class="moreBtn"><a href="#"><img src="images/Btn_more.png" alt=""></a></p>
+					</div>
+					<div class="review">
+						<h4 class="title">상품사용후기</h4>
+						<ul>
+							<li><a href="#">누크프루프 스냅백 3종 세트</a></li>
+							<li><a href="#">좋아요 좋습니다~~~~~~~~~~~~</a></li>
+							<li><a href="#">질 좋고 색감 좋고 가격대비 최고입니다</a></li>
+							<li><a href="#">좋아요 색도 예쁘고 배송도 빨랐어요</a></li>
+							<li><a href="#">앞파인스타스 패스파인더 숏(1)</a></li>
+							<li><a href="#">매우 만족합니다.</a></li>
+							<li><a href="#">잘 맞고 좋네요~</a></li>
+						</ul>
+						<p class="moreBtn"><a href="#"><img src="images/Btn_more.png" alt=""></a></p>
+					</div>
+					<div class="smartCustom">
+						<h4 class="title">SMART 고객센터</h4>
+						<ul class="del clearFix">
+							<li><a href="#">
+									<img src="images/icon_delivery.png" alt="">
+									<span>주문/배송조회</span>
+								</a></li>
+							<li><a href="#">
+									<img src="images/icon_return.png" alt="">
+									<span>교환/반품신청</span>
+								</a></li>
+							<li><a href="#">
+									<img src="images/icon_custom.png" alt="">
+									<span>1:1온라인상담</span>
+								</a></li>
+							<li><a href="#">
+									<img src="images/icon_facebook.png" alt="">
+									<span>Facebook</span>
+								</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="shopInfo clearFix">
+				<h2 class="blind">매장영업시간 안내 및 고객센터, 입금계좌 안내, 매장 오시는 길</h2>
+				<div class="center">
+					<div class="open">
+						<h4 class="title">매장 영업 시간 안내 및 고객센터</h4>
+						<strong>1688-5776</strong>
+						<span>평일/토요일 AM 10:00 ~ PM 08:00</span>
+						<span>일요일/공휴일 휴무</span>
+
+						<!--					모바일 -->
+						<div class="mobileTel">
+							<a href="#"><img src="images/ico_Tel.png" alt=""><span>전화연결 바로가기</span></a>
+						</div>
+					</div>
+					<div class="bank">
+						<h4 class="title">입금 계좌 안내</h4>
+						<p><img src="images/bank.png" alt=""><span class="account">110-146-713288</span></p>
+						<span class="depositor">예금주/바이스모토</span>
+
+						<!--						모바일  -->
+						<div class="mobileCustom">
+							<a href="#"><img src="images/ico_Custom.png" alt=""><span>고객센터 바로가기</span></a>
+						</div>
+					</div>
+					<div class="map">
+						<h4 class="title">바이스모토 창고형 매장 오시는 길</h4>
+						<p><img src="images/icon_map.png" alt=""></p>
+						<span>서울 영등포구 당산동1가 53-4번지</span>
+						<span>에이블허브빌딩 2층</span>
+					</div>
+				</div>
+			</section>
+		</section>
+	</div>
+
+
+
+
+	<!--    footer -->
+
+	<footer>
+		<div class="center clearFix">
+			<div class="footLeft">
+				<p class="footLogo">
+					<img src="images/footLogo.png" alt="">
+				</p>
+				<ul class="footMenu">
+					<li><a href="#">회사소개</a></li>
+					<li><a href="#">서비스 이용약관</a></li>
+					<li><a href="#">개인정보 취급방침</a></li>
+				</ul>
+
+			</div>
+			<address>
+				<p>바이스모토인코퍼레이티드 &#124; 대표자:김미영 &#124; 개인정보 책임자:최영일</p>
+				<p>사업자등록번호 : 140-02-76520 통신판매업신고 : 제 2010-서울영등포-0389호</p>
+				<p>서울시 영등포구 당산동1가 53-4번지 에이블허브빌딩 2층 201/202/203호</p>
+				<p>대표전화 : 1688-5776 팩스 : 02-2631-2753</p>
+				<p><a href="#">사업자정보확인</a></p>
+			</address>
+			<div class="footRight">
+				<p class="lgUplus">
+					<img src="images/lg.png" alt="">
+					<span class="mo1">구매안전(에스크로)서비스</span>
+				</p>
+				<p class="mo2">고객님의 안전거래를 위해 현금등으로 10만원이상 결제시</p>
+				<p class="mo3">저희 사업장에서 가입한 엘지데이콤의 구매안전 서비스를</p>
+				<p class="mo4">이용하실 수 있습니다.</p>
+				<p><a href="#">전자결제 가입 사실 확인하기</a></p>
+			</div>
+		</div>
+	</footer>
+	<p class="top"><a href="#"><img src="images/ico_top.png" alt=""></a></p>
+
+
+	<div class="mobileWrap">
+		<div class="mobileCate">
+			<p class="mobileCategory">
+				<a href="#">전체 카테고리<img src="images/icon-x.png" alt="" class="closeBtn"></a></p>
+			<ul class="mobileCatesub">
+				<li><a href="#">산악자전거</a>
+					<ul class="mobileSubsub">
+						<li><a href="#">산악자전거</a></li>
+						<li><a href="#">프레임</a></li>
+						<li><a href="#">모터키트</a></li>
+					</ul>
+				</li>
+				<li><a href="#">산악자전거(MTB)용품</a>
+					<ul class="mobileSubsub">
+						<li><a href="#">자켓</a></li>
+						<li><a href="#">장갑</a></li>
+						<li><a href="#">저지</a></li>
+						<li><a href="#">바지</a></li>
+						<li><a href="#">보호대</a></li>
+						<li><a href="#">신발</a></li>
+						<li><a href="#">고글 및 선글라스</a></li>
+						<li><a href="#">기능성 이너웨어</a></li>
+						<li><a href="#">악세사리</a></li>
+						<li><a href="#">풀페이스 헬멧</a></li>
+						<li><a href="#">어반헬멧</a></li>
+						<li><a href="#">헬멧</a></li>
+						<li><a href="#">파츠</a></li>
+						<li><a href="#">MTB 프레임</a></li>
+					</ul>
+
+				</li>
+				<li><a href="#">로드사이클 용품</a>
+					<ul class="mobileSubsub">
+						<li><a href="#">자켓</a></li>
+						<li><a href="#">바지</a></li>
+						<li><a href="#">장갑</a></li>
+						<li><a href="#">헬멧</a></li>
+						<li><a href="#">고글 선글라스</a></li>
+						<li><a href="#">기능성 저지</a></li>
+						<li><a href="#">모자</a></li>
+					</ul>
+
+				</li>
+				<li><a href="#">오프로드 바이크 용품</a>
+					<ul class="mobileSubsub">
+						<li><a href="#">자켓</a></li>
+						<li><a href="#">저지</a></li>
+						<li><a href="#">바지</a></li>
+						<li><a href="#">장갑</a></li>
+						<li><a href="#">고글</a></li>
+						<li><a href="#">부츠</a></li>
+						<li><a href="#">기능성 이너웨어</a></li>
+						<li><a href="#">헬멧</a></li>
+						<li><a href="#">악세사리</a></li>
+					</ul>
+				</li>
+				<li><a href="#">모터사이클 용품</a>
+					<ul class="mobileSubsub">
+						<li><a href="#">슈트</a></li>
+						<li><a href="#">자켓</a></li>
+						<li><a href="#">장갑</a></li>
+						<li><a href="#">부츠</a></li>
+						<li><a href="#">보호대</a></li>
+						<li><a href="#">고글</a></li>
+						<li><a href="#">방한용 마스크</a></li>
+						<li><a href="#">신발</a></li>
+						<li><a href="#">기능성 이너웨어</a></li>
+					</ul>
+				</li>
+				<li><a href="#">캐주얼 의류</a>
+					<ul class="mobileSubsub">
+						<li><a href="#">반팔티셔츠</a></li>
+						<li><a href="#">비니모자</a></li>
+						<li><a href="#">후드 플리스티</a></li>
+						<li><a href="#">긴팔티셔츠</a></li>
+						<li><a href="#">스포츠캡</a></li>
+						<li><a href="#">자켓</a></li>
+					</ul>
+				</li>
+				<li><a href="#">악세사리</a>
+					<ul class="mobileSubsub">
+						<li><a href="#">가방</a></li>
+						<li><a href="#">하드웨어</a></li>
+						<li><a href="#">안전조끼</a></li>
+						<li><a href="#">기능성 양말</a></li>
+						<li><a href="#">모자</a></li>
+						<li><a href="#">시계</a></li>
+					</ul>
+
+				</li>
+				<li><a href="#">여성용 모터사이클 용품</a>
+					<ul class="mobileSubsub">
+						<li><a href="#">자켓</a></li>
+						<li><a href="#">장갑</a></li>
+						<li><a href="#">청바지</a></li>
+						<li><a href="#">보호대</a></li>
+					</ul>
+				</li>
+				<li><a href="#">모터사이클용 재고처분의류</a>
+					<ul class="mobileSubsub">
+						<li><a href="#">남성용 자켓</a></li>
+						<li><a href="#">남성용 바지</a></li>
+						<li><a href="#">여성용 자켓</a></li>
+						<li><a href="#">여성용 바지</a></li>
+					</ul>
+				</li>
+				<li><a href="#">빅세일 상품</a>
+					<ul class="mobileSubsub">
+						<li><a href="#">슈트</a></li>
+						<li><a href="#">자켓</a></li>
+						<li><a href="#">저지</a></li>
+						<li><a href="#">바지</a></li>
+						<li><a href="#">장갑</a></li>
+						<li><a href="#">부츠</a></li>
+						<li><a href="#">선글라스 및 고글</a></li>
+					</ul>
+
+
+				</li>
+			</ul>
+		</div>
+
+		<div class="fixed">
+			<ul class="mobileNav">
+				<li class="icoCate"><a href="#"><img src="images/ico_cate.png"><span>카테고리</span></a></li>
+				<li><a href="#"><img src="images/ico_brand.png" alt=""><span>브랜드</span></a></li>
+				<li><a href="#"><img src="images/ico_home.png" alt=""><span>홈</span></a></li>
+				<li><a href="#"><img src="images/ico_search.png" alt=""><span>검색</span></a></li>
+				<li><a href="index_login.html"><img src="images/ico_mypage.png" alt=""><span>마이페이지</span></a></li>
+			</ul>
+		</div>
+
+	</div>
+
+</body>
+
+</html>
